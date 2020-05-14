@@ -8,5 +8,9 @@ body {
 
 .chart {
     margin-bottom: 1rem;
-    margin-left: 2.5rem;
+    display: flex;
+}
+
+.chart h1 {
+    display: inline-block;
 }
