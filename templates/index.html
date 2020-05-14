@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    <title>Indexify</title>
+</head>
+<body>
+    <div class="header">
+        <h1>Indexify</h1>
+    </div>
+    <form class="data-form" action="/dates" method="POST">
+        <div class="form-control">
+            <label for="start_date">Start Date:</label>
+            <input type="date" name="start_date" id="start_date" min="2015-04-20" max="2020-04-17">
+        </div>
+        <div class="form-control">
+            <label for="end_date">End Date:</label>
+            <input type="date" name="end_date" id="end_date" min="2015-04-21" max="2020-04-20">
+        </div>
+        <button class="btn" type="submit">Go!</button>
+    </form>
+</body>
+</html>
