@@ -6,4 +6,4 @@
 3. Access the virtual pipenv environment by writing 'pipenv shell' in the command line. *Be sure to select the correct python interpreter in your code editor.*
 4. Hit 'pipenv sync' to install all the dependencies 
 5. To start Indexify just hit 'python3 app.py' or 'python app.py' depending on your machine.
-6. The app will be running on http://127.0.0.1:5000
+6. The app will be running on http://127.0.0.1:5000/
